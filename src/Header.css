@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__heading{
+    color: white;
+}
+
+.header__heading:hover{
+    cursor: pointer;
+    color: wheat;
+    text-decoration: underline;
+}

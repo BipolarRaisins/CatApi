@@ -1,0 +1,31 @@
+.images__search{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.images__search1{
+    width: 50%;
+}
+
+.images__sort{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.images__options{
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: grey; 
+   
+}
+
+.images__order{
+    padding: 5px;
+    color: gray;
+    font-size: 20px;
+    text-align: left;
+}

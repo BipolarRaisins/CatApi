@@ -1,0 +1,59 @@
+.vote{
+    display: flex;
+    flex-direction: column;
+}
+
+.vote__btn{
+    margin: 15px;
+}
+
+.vote__likebtn{
+    background-color: rgb(139, 219, 139);
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.vote__nopebtn{
+    background-color: rgb(235, 82, 82);
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.vote__randomImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: 420px;
+    padding: 15px;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+    margin: 40px;
+}
+
+.vote__catImg{
+    width: 100%;
+    height: 400px;
+}
+
+.vote__favit{
+    background-color: white;
+     color: white;
+     border: 1px whitesmoke;
+     outline: none;
+   }
+ 
+   .vote__favit:hover{
+     background-color: rgb(182, 231, 182);
+     border: 0;
+     outline: none;
+     width: 65%;
+     padding: 10px;
+   }

@@ -1,0 +1,27 @@
+.upload__fileDiv{
+    height: 400px;
+    width: 700px;
+    border: 3px dashed rgb(27, 131, 172);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 25%;
+    margin-top: 8%;
+
+}
+
+.upload__fileDiv:hover{
+
+    background-image: url('./0ae09429cbcf0da.jpg');
+    background-size: 100%;
+    
+
+}
+
+
+.upload__file{
+    margin-left: 20%;
+}
